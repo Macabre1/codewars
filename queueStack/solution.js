@@ -2,14 +2,17 @@ var Stack = function(value) {
   var storage = [];
 
   this.push = function(value){
+    // value -> storage
     storage.push(value);
   };
 
   this.pop = function(){
+    // last thing in storage would be removed
     return storage.pop();
   };
 
   this.size = function(){
+    // .length of storage
     return storage.length;
   };
 };
@@ -20,10 +23,12 @@ var Queue = function() {
   var outbox = new Stack();
 
   this.enqueue = function(value){
+    // add value to inbox stack
     inbox.push(value);
   };
 
   this.dequeue = function(){
+    // add value to outbox stack
     var len = inbox.size();
     var out = outbox.size();
     if (out > 0) {
@@ -37,6 +42,7 @@ var Queue = function() {
   };
 
   this.size = function(){
+    // .length of stacks
     return inbox.size() + outbox.size();
   };
 };
