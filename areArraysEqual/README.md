@@ -1,6 +1,6 @@
 # areArraysEqual
 
-Arrays are stored in different locations in memory. So even two identical arrays would not === each other.
+Arrays are stored in different locations in memory. So even two identical arrays would not deep equal each other.
 
 Examples:
 
