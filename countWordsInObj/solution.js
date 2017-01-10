@@ -6,5 +6,3 @@ function countWords(str){
   }
   return tally;
 }
-
-countWords('hello hello poppit');
