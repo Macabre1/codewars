@@ -1,15 +1,15 @@
 var names = ['Aaron Aves','Alex Duda','Colton Jett','Elliott Birch','Jamin Ewell','Jane Vaden','Jared Cairns','Jason Sierra','Joshua Peng','Nick Partridge','Rachel Noble','Richard Mathera','Robert Ballard','Sammy Icaza','Samy Kebaish','Silvia Fernandez','Vandeth Nop','Vy Trinh'];
-
+// make a copy of the names
 var copyNames = [];
-
+// create a place for names that have been called
 var namesCalled = [];
-
+// randomizer
 function getRandomInt(min, max) {
   min = Math.ceil(min);
   max = Math.floor(max);
   return Math.floor(Math.random() * (max - min)) + min;
 }
-
+// call based on the randomizer and move name to the names called array
 function coldCall(array){
   if(copyNames.length === 0){
     console.log("Make a new copy of the original array.")
