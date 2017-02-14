@@ -1,3 +1,5 @@
+// words within words
+
 function nestedWordCount (wordList) {
   var biggest = [-1, ''];
   wordList.forEach(function(word) {
