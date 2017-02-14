@@ -5,4 +5,4 @@ Given an array of unique words, find the word that contains the greatest number 
 
 Input | Output
 ------------- | -------------
-[ "gray", "grays", "ray", "rays", "strays" ]| "grays"
+[ "gray", "grays", "ray", "rays", "strays" , ""]| "grays"
