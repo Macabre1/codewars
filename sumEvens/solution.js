@@ -1,3 +1,5 @@
+// recursive solution for sumEvens
+
 function sumEvens(n){
   if (n === 0) {
     return 0;
