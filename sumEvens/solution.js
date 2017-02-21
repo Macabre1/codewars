@@ -9,3 +9,18 @@ function sumEvens(n){
     return sumEvens(n-1);
   }
 }
+
+
+// iterative solution for sumEvens
+
+function sumEvenss(n){
+  var count = 0;
+  if (n%2 !== 0){
+    n-=1;
+  }
+  while(n > 0){
+    count+=n;
+    n-=2;
+  }
+  return count;
+}
