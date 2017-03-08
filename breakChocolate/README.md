@@ -11,4 +11,6 @@ If input data is invalid you should return 0 (as in no breaks are needed if we d
 Input | Output
 ------------- | -------------
 1, 1 | 0
+1, 4 | 3 
 5, 5 | 24
+0, 12 | 0
